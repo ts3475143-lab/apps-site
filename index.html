@@ -15,16 +15,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg,#ff7b00,#ff3d00);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("https://i.ibb.co/93s66yh1/152ca479-507e-4ba4-8756-780e4d575a39.jpg") center/cover no-repeat;
   color: white;
-  padding: 12px;
+  padding: 15px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .header img {
   width: 40px;
   margin-right: 10px;
   border-radius: 50%;
+  border: 2px solid white;
 }
 
 /* APP CARD */
@@ -35,6 +38,7 @@ body {
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .app-card img {
@@ -47,12 +51,14 @@ body {
   margin-left: 10px;
 }
 
+/* BUTTON */
 .download-btn {
-  background: orange;
+  background: linear-gradient(90deg,#00c853,#00e676);
   color: white;
   padding: 8px 15px;
   border-radius: 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* TELEGRAM FLOAT */
@@ -62,9 +68,11 @@ body {
   bottom: 80px;
   width: 60px;
 }
+
 .tg-float img {
   width: 100%;
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,255,0,0.7);
 }
 </style>
 </head>
