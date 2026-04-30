@@ -1,115 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All Yono Apps</title>
+<title>ALL YONO APPS</title>
 
 <style>
+
 body {
+  margin: 0;
   font-family: Arial;
-  background: #f2f2f2;
+  background: #f5f5f5;
 }
 
-h2 {
-  text-align: center;
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg,#ff7b00,#ff3d00);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.app {
+.header img {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* APP CARD */
+.app-card {
   display: flex;
   align-items: center;
   background: white;
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
-.app img {
+.app-card img {
   width: 60px;
-  border-radius: 10px;
+  height: 60px;
+  border-radius: 15px;
 }
 
-.info {
+.app-info {
   flex: 1;
   margin-left: 10px;
 }
 
-.btn {
-  background: orange;
+.app-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.app-info p {
+  margin: 5px 0;
+  color: green;
+}
+
+.download-btn {
+  background: #ff3d00;
   color: white;
-  padding: 10px;
+  padding: 8px 15px;
   border-radius: 20px;
   text-decoration: none;
+  font-size: 14px;
 }
+
+/* TELEGRAM FLOAT */
+.tg-float {
+  position: fixed;
+  right: 15px;
+  bottom: 80px;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+}
+
+.tg-float img {
+  width: 100%;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
 </style>
 </head>
 
 <body>
 
-<h2>🔥 ALL YONO APPS</h2>
-
-<!-- APP START -->
-
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Joy Rummy</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.joyrummy777.com/?code=J5KHRQBNAGE&t=1768444761">Download</a>
+<!-- HEADER -->
+<div class="header">
+  <img src="https://chat.openai.com/c/file_000000006e907207b706019c05f737b0">
+  ALL YONO APPS
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>777 Game</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.777game0.com/?code=H53JH3VQUDE&t=1768497262">Download</a>
+<!-- TOP APPS -->
+
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_00000000e4187207a15142dc13afd8d1">
+<div class="app-info">
+<h3>Yono-Rummy</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="https://yonorummy005.com/?code=VIPP32A7S3C&t=1767957500">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Ok Rummy</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.okrummy22.com/?code=H2G9ZF884FY&t=1768479108">Download</a>
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_00000000512072078c7435070fd0ceff">
+<div class="app-info">
+<h3>Spin-Crush</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Hindi 777</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.hindi777agent.app/?code=7LFSNG55TWL&t=1768497327">Download</a>
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_000000005ea872078c52fa2a0f72a39d">
+<div class="app-info">
+<h3>Yono-Games</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="https://uonoapp.com/?code=S8X7M6CV&t=1767955815">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Club INR</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="http://clubinr5.xyz/?code=9VC4Z8SCUX9&t=1768497447">Download</a>
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_000000009e3c720797dc698d665aa794">
+<div class="app-info">
+<h3>Boss Rummy</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="https://www.bossrummys.com/?code=9HFGECC3FYJ&t=1768821285">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Game Rummy</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://gamerummyh.com/?code=Q6WT7EWLKWX&t=1768497561">Download</a>
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_00000000d3d87207afa406ff04d63a00">
+<div class="app-info">
+<h3>Bingo-101</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="https://bingo101ee.net/?code=6YFXN59C7C5&t=1767957443">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Yes Spin</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.yesspin99.com/?code=47T677CN41E&t=1768480089">Download</a>
+<!-- MORE APPS (example, baki gula same format e add koro) -->
+
+<div class="app-card">
+<img src="https://chat.openai.com/c/file_0000000079f07207af7200849e388963">
+<div class="app-info">
+<h3>YonoVip</h3>
+<p>₹50–₹150 | Withdraw ₹100</p>
+</div>
+<a class="download-btn" href="https://yonovipi.com/?code=3CRXAZ2WJAC&t=1771175642">Download</a>
 </div>
 
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Rumble Rummy</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://rumblerummyofficial.vip/?code=UC09YM5L1B6&t=1756694006">Download</a>
-</div>
-
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Love Rummy</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://www.loverummy5.com/?code=AFCNNTBV1FP&t=1768479738">Download</a>
-</div>
-
-<div class="app">
-<img src="https://via.placeholder.com/60">
-<div class="info"><b>Share Slots</b><br>₹50–₹150<br>Withdraw ₹100</div>
-<a class="btn" href="https://share0099.com/?code=YAZJPDHY5Q1&t=1767871133">Download</a>
-</div>
-
-<!-- APP END -->
+<!-- TELEGRAM FLOAT -->
+<a href="https://t.me/MegaLooters9" target="_blank" class="tg-float">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
+</a>
 
 </body>
 </html>
