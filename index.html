@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Allyono Apps | Best Earning Apps</title>
 
 <style>
@@ -13,7 +11,6 @@ body {
   background: #f5f5f5;
 }
 
-/* HEADER */
 .header {
   text-align:center;
   background: linear-gradient(90deg,#0f9b8e,#065f5b);
@@ -22,7 +19,6 @@ body {
   font-weight: bold;
 }
 
-/* SEARCH */
 .search-box{
  width:90%;
  margin:10px auto;
@@ -40,13 +36,11 @@ body {
   padding: 10px;
 }
 
-/* CARD */
 .app-card {
   background: white;
   border-radius: 12px;
   text-align: center;
   padding: 8px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.1);
 }
 
 .app-card img {
@@ -56,28 +50,42 @@ body {
   border-radius: 10px;
 }
 
-.app-title {
-  font-size: 12px;
-  font-weight: bold;
+.app-title { font-size: 12px; font-weight: bold; }
+.app-sub { font-size: 10px; color: gray; }
+
+/* LIST */
+.list-item {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:white;
+  margin:8px 10px;
+  padding:10px;
+  border-radius:10px;
 }
 
-.app-sub {
-  font-size: 10px;
-  color: gray;
+.list-left {
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.list-left img{
+  width:40px;
+  height:40px;
+  border-radius:8px;
+  object-fit:cover;
 }
 
 .download-btn {
-  display:block;
-  margin:5px auto;
-  width:70%;
-  padding: 6px;
+  padding:5px 12px;
   background: linear-gradient(90deg,#ff7b00,#ff3d00);
-  color: white;
-  border-radius: 20px;
-  text-decoration: none;
+  color:white;
+  border-radius:20px;
+  text-decoration:none;
+  font-size:11px;
 }
 
-/* TELEGRAM */
 .tg-float{
  position:fixed;
  bottom:20px;
@@ -92,414 +100,350 @@ body {
 
 <body>
 
-<div class="header">
-🔥 Allyono Apps - Earn Money Daily 🔥
-</div>
+<div class="header">🔥 Allyono Apps - Earn Money Daily 🔥</div>
 
 <input type="text" id="searchInput" class="search-box" onkeyup="searchApp()" placeholder="🔍 Search apps...">
 
+<!-- TOP GRID -->
 <div class="app-container">
 
-<!-- APP 1 -->
 <div class="app-card">
-<img src="https://i.ibb.co/B29H95Tn/a216c154-c89b-4140-8740-9605d6ae9e6f.jpg">
-<div class="app-title">Yono-Rummy</div>
+<img src="https://i.ibb.co/B29H95Tn/a216c154.jpg">
+<div class="app-title">Yono Rummy</div>
 <div class="app-sub">₹50–₹150</div>
 <a class="download-btn" href="yono.html">Go</a>
 </div>
 
-<!-- APP 2 -->
 <div class="app-card">
-<img src="https://i.ibb.co/5xn1bzyk/19ca17f1-b803-44c3-a16d-9c1fc5467d08.jpg">
-<div class="app-title">Spin-Crush</div>
+<img src="https://i.ibb.co/5xn1bzyk/19ca17.jpg">
+<div class="app-title">Spin Crush</div>
 <div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<a class="download-btn" href="#">Go</a>
 </div>
 
-<!-- APP 3 -->
-<div class="app-card">
-<img src="https://i.ibb.co/5xn1bzyk/19ca17f1-b803-44c3-a16d-9c1fc5467d08.jpg">
-<div class="app-title">Yono-Games</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 4 -->
 <div class="app-card">
 <img src="https://i.ibb.co/8gJP02rH/1.jpg">
 <div class="app-title">Boss Rummy</div>
 <div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 5 -->
-<div class="app-card">
-<img src="https://i.ibb.co/Kx1XLHNR/71b8cb14-1ca0-46ed-9006-164e20b58314.jpg">
-<div class="app-title">YonoVip</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 6 -->
-<div class="app-card">
-<img src="https://i.ibb.co/SL4X4Q3/47d17b4f-6514-4fba-b0b9-ce702267bda9.jpg">
-<div class="app-title">Joy Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 7 -->
-<div class="app-card">
-<img src="https://i.ibb.co/vxgpGWHf/6b547d63-6f66-4bc9-83f1-ea6073ff6150.jpg">
-<div class="app-title">Spin-777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 8 -->
-<div class="app-card">
-<img src="https://i.ibb.co/0yhPtXH1/de4031f4-6a25-41e6-80e9-d9d327eaca5f.jpg">
-<div class="app-title">777-Game</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 9 -->
-<div class="app-card">
-<img src="https://i.ibb.co/ZzS3dbpX/27690216-d1da-4a23-8512-823319245db1.jpg">
-<div class="app-title">Ok-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<a class="download-btn" href="#">Go</a>
 </div>
 
 </div>
 
-<!-- APP 10 -->
-<div class="app-card">
-<img src="https://i.ibb.co/nqL3PswL/033ac1ae-432b-49bc-bd89-4bc710339965.jpg">
-<div class="app-title">Hindi-777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<h3 style="padding:10px;">📋 More Apps</h3>
+
+<div id="appList">
+
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/nqL3PswL/033ac1ae.jpg">
+<span>Hindi-777</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 11 -->
-<div class="app-card">
-<img src="https://i.ibb.co/ZzgsxwpF/8972477d-4edc-4b65-95f6-ad5e0f2954c8.jpg">
-<div class="app-title">Club-INR</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/ZzgsxwpF/8972477d.jpg">
+<span>Club-INR</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 12 -->
-<div class="app-card">
-<img src="https://i.ibb.co/pBTfSf22/64420722-1544-49c6-8b60-3ff79054bc98.jpg">
-<div class="app-title">Game-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/pBTfSf22/64420722.jpg">
+<span>Game-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 13 -->
-<div class="app-card">
-<img src="https://i.ibb.co/mCm6Ld6w/4065700c-97a2-4044-969c-2de15c6b59b6.jpg">
-<div class="app-title">Yes-Spin</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/mCm6Ld6w/4065700c.jpg">
+<span>Yes-Spin</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 14 -->
-<div class="app-card">
-<img src="https://i.ibb.co/n8gsyDWW/60100659-578f-4a70-846f-f6998b758d5b.jpg">
-<div class="app-title">Rumble-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/n8gsyDWW/60100659.jpg">
+<span>Rumble-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 15 -->
-<div class="app-card">
-<img src="https://i.ibb.co/S4HpGTsR/b38ed811-6f62-49f6-96c9-04bf3f5694c1.jpg">
-<div class="app-title">Love-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/S4HpGTsR/b38ed811.jpg">
+<span>Love-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 16 -->
-<div class="app-card">
-<img src="https://i.ibb.co/dYrdNqg/8b5cb024-94b9-4a63-98ab-2484c7e24f7c.jpg">
-<div class="app-title">Share-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/dYrdNqg/8b5cb024.jpg">
+<span>Share-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 17 -->
-<div class="app-card">
-<img src="https://i.ibb.co/4gSJ0FkG/88b8bcac-2e47-4431-9711-b05a2408f474.jpg">
-<div class="app-title">Maha-Games</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/4gSJ0FkG/88b8bcac.jpg">
+<span>Maha-Games</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 18 -->
-<div class="app-card">
-<img src="https://i.ibb.co/B5DTngQG/34e3e6c4-e5d1-420d-bf52-329d61661418.jpg">
-<div class="app-title">Hi-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/B5DTngQG/34e3e6c4.jpg">
+<span>Hi-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 19 -->
-<div class="app-card">
-<img src="https://i.ibb.co/nMV7vh9q/887a1983-0c14-4ab1-b2d0-7aa1e21c26da.jpg">
-<div class="app-title">JaiHo-Win</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/nMV7vh9q/887a1983.jpg">
+<span>JaiHo-Win</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 20 -->
-<div class="app-card">
-<img src="https://i.ibb.co/8nqpjW7b/e5021e87-23e4-46e8-85f2-cf176fef2a1e.jpg">
-<div class="app-title">IND-Club</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/8nqpjW7b/e5021e87.jpg">
+<span>IND-Club</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 21 -->
-<div class="app-card">
-<img src="https://i.ibb.co/jkJmSDhH/42eb9b0c-2bb1-4b19-8751-1871a7557574.jpg">
-<div class="app-title">TOP-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/jkJmSDhH/42eb9b0c.jpg">
+<span>TOP-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 22 -->
-<div class="app-card">
-<img src="https://i.ibb.co/SDvncN4D/f8f1edb4-0f9d-405f-8942-cede8272f2c8.jpg">
-<div class="app-title">IND-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/SDvncN4D/f8f1edb4.jpg">
+<span>IND-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 23 -->
-<div class="app-card">
-<img src="https://i.ibb.co/sJt02mKF/45dad049-5993-4d74-a9f8-97e8d81581dc.jpg">
-<div class="app-title">JaiHo-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/sJt02mKF/45dad049.jpg">
+<span>JaiHo-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 24 -->
-<div class="app-card">
-<img src="https://i.ibb.co/fVL4dsRb/ddeea380-9fa1-43f0-ab84-9ea9e2053134.jpg">
-<div class="app-title">Saga-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/fVL4dsRb/ddeea380.jpg">
+<span>Saga-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 25 -->
-<div class="app-card">
-<img src="https://i.ibb.co/Pvgsw2mJ/b972535a-c082-4e86-ac12-bbf1b12c2e71.jpg">
-<div class="app-title">Abc-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/bMV3H94g/e7bb8b93.jpg">
+<span>Jaiho-777</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 26 -->
-<div class="app-card">
-<img src="https://i.ibb.co/TxxhkM2V/99c8f896-c0b2-413d-bcd1-e886bfc7ed59.jpg">
-<div class="app-title">Jaiho-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/SDhFF1K8/eb4756ed.jpg">
+<span>Rummy-91</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 27 -->
-<div class="app-card">
-<img src="https://i.ibb.co/bMV3H94g/e7bb8b93-f86d-4c64-a3f8-58b16bb2bd2b.jpg">
-<div class="app-title">Jaiho-777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/WpKGr1ZW/e55405ba.jpg">
+<span>Jaiho-Spin</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 28 -->
-<div class="app-card">
-<img src="https://i.ibb.co/SDhFF1K8/eb4756ed-7311-4dd3-a7ef-13d07f0d20a1.jpg">
-<div class="app-title">Rummy-91</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/czytB2k/1c144bf9.jpg">
+<span>Jaiho-Arcade</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 29 -->
-<div class="app-card">
-<img src="https://i.ibb.co/WpKGr1ZW/e55405ba-f10a-40ff-b16e-0e720172f04a.jpg">
-<div class="app-title">Jaiho-Spin</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/PGKNyqvg/d9ebde01.jpg">
+<span>Neta-Vip</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 30 -->
-<div class="app-card">
-<img src="https://i.ibb.co/czytB2k/1c144bf9-9757-42a4-8aed-62067d0b4b36.jpg">
-<div class="app-title">Jaiho-Arcade</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/xtjgGbM9/f2e5d85b.jpg">
+<span>Slots Spin</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 31 -->
-<div class="app-card">
-<img src="https://i.ibb.co/PGKNyqvg/d9ebde01-8bfb-4cc3-8c16-e942c5f5682c.jpg">
-<div class="app-title">Neta-Vip</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/HfHR5y6y/643bdcf3.jpg">
+<span>YN-777</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 32 -->
-<div class="app-card">
-<img src="https://i.ibb.co/xtjgGbM9/f2e5d85b-096e-4649-a5c6-f5702ce84c34.jpg">
-<div class="app-title">Slots Spin</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/Kc8wpGys/af271ea6.jpg">
+<span>Slots-Winner</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 33 -->
-<div class="app-card">
-<img src="https://i.ibb.co/HfHR5y6y/643bdcf3-3686-47b8-8682-9c03c430b4a1.jpg">
-<div class="app-title">YN-777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/WNWGgTmx/21d85eac.jpg">
+<span>Ind-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 34 -->
-<div class="app-card">
-<img src="https://i.ibb.co/Kc8wpGys/af271ea6-7bb1-4619-ab4e-b3c3c5bdefc1.jpg">
-<div class="app-title">Slots-Winner</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/pjNRS2dq/265b7a2c.jpg">
+<span>101-Z</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 35 -->
-<div class="app-card">
-<img src="https://i.ibb.co/WNWGgTmx/21d85eac-8226-4b88-984b-62ea04546beb.jpg">
-<div class="app-title">Ind-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/9kHzK5yS/7695b79c.jpg">
+<span>Spin-Gold</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 36 -->
-<div class="app-card">
-<img src="https://i.ibb.co/pjNRS2dq/265b7a2c-3b5d-4b55-b48b-3e2eab6f0fce.jpg">
-<div class="app-title">101-Z</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/YBsfTY4b/7085e031.jpg">
+<span>MBM-Bet</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 37 -->
-<div class="app-card">
-<img src="https://i.ibb.co/9kHzK5yS/7695b79c-f017-486b-9cb9-6e15a4f8b89c.jpg">
-<div class="app-title">Spin-Gold</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/5WqKkw21/3bd46128.jpg">
+<span>Spin-Winner</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 38 -->
-<div class="app-card">
-<img src="https://i.ibb.co/YBsfTY4b/7085e031-5f06-48de-b0cf-52c7a0c68fcb.jpg">
-<div class="app-title">Mbm-Bet</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/MyDxMGwy/64a2e5c4.jpg">
+<span>Spin-101</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 39 -->
-<div class="app-card">
-<img src="https://i.ibb.co/5WqKkw21/3bd46128-446d-4283-a704-d1fbaa713bd5.jpg">
-<div class="app-title">Spin-Winner</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/yTkXk1Q/034b1a40.jpg">
+<span>Bet-213</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 40 -->
-<div class="app-card">
-<img src="https://i.ibb.co/MyDxMGwy/64a2e5c4-ea6b-4442-8945-d5c6f6685621.jpg">
-<div class="app-title">Spin-101</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/7m4p1Vs/fdc05cc9.jpg">
+<span>Bingo-101</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 41 -->
-<div class="app-card">
-<img src="https://i.ibb.co/yTkXk1Q/034b1a40-c546-4502-abf9-ae231a6a4a14.jpg">
-<div class="app-title">Bet-213</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/R4zqDBNS/e94c64ba.jpg">
+<span>789-Jackpot</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 42 -->
-<div class="app-card">
-<img src="https://i.ibb.co/7m4p1Vs/fdc05cc9-1d77-4819-9cd4-0ce8b8affc8f.jpg">
-<div class="app-title">Bingo-101</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/6M3fN5H/e0539f07.jpg">
+<span>Yono-Arcade</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 43 -->
-<div class="app-card">
-<img src="https://i.ibb.co/R4zqDBNS/e94c64ba-2e71-48e7-96c7-764527230a95.jpg">
-<div class="app-title">789-Jackpots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/svm7jqpX/876cf7c2.jpg">
+<span>Gogo-Rummy</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 44 -->
-<div class="app-card">
-<img src="https://i.ibb.co/6M3fN5H/e0539f07-bbba-41cd-af29-70c9bc9aef9a.jpg">
-<div class="app-title">Yono-Arcade</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/cSmvpW5p/db7a395d.jpg">
+<span>Yono-Games</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 45 -->
-<div class="app-card">
-<img src="https://i.ibb.co/svm7jqpX/876cf7c2-8257-44a0-84e0-46faa819d8f4.jpg">
-<div class="app-title">Gogo-Rummy</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/tpJkjh0J/10ca36b4.jpg">
+<span>Yono-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 46 -->
-<div class="app-card">
-<img src="https://i.ibb.co/cSmvpW5p/db7a395d-28b2-4ef8-9bef-b3e99825e02d.jpg">
-<div class="app-title">Yono-Games</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/wFhcNpyK/2f51b579.jpg">
+<span>567-Slots</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 47 -->
-<div class="app-card">
-<img src="https://i.ibb.co/tpJkjh0J/10ca36b4-1173-470c-af60-b285969f14b5.jpg">
-<div class="app-title">Yono-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/MypYZ1dR/d74813b4.jpg">
+<span>Yono-777</span>
+</div>
+<a class="download-btn" href="#">Download</a>
 </div>
 
-<!-- APP 48 -->
-<div class="app-card">
-<img src="https://i.ibb.co/wFhcNpyK/2f51b579-cfd1-43a3-889b-ea839b251319.jpg">
-<div class="app-title">567-Slots</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<div class="list-item">
+<div class="list-left">
+<img src="https://i.ibb.co/zVBNg3yb/5c60be1e.jpg">
+<span>Ever-777</span>
 </div>
-
-<!-- APP 49 -->
-<div class="app-card">
-<img src="https://i.ibb.co/MypYZ1dR/d74813b4-d3aa-486b-8a3c-587b53a1525c.jpg">
-<div class="app-title">Yono-777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
-</div>
-
-<!-- APP 50 -->
-<div class="app-card">
-<img src="https://i.ibb.co/zVBNg3yb/5c60be1e-8c2f-450a-a644-f5109b6e123f.jpg">
-<div class="app-title">Ever777</div>
-<div class="app-sub">₹50–₹150</div>
-<a class="download-btn" href="yono.html">Go</a>
+<a class="download-btn" href="#">Download</a>
 </div>
 
 <!-- TELEGRAM -->
@@ -510,17 +454,11 @@ body {
 <script>
 function searchApp() {
   let input = document.getElementById("searchInput").value.toLowerCase();
-  let cards = document.getElementsByClassName("app-card");
+  let cards = document.querySelectorAll(".app-card, .list-item");
 
-  for (let i = 0; i < cards.length; i++) {
-    let text = cards[i].innerText.toLowerCase();
-
-    if (text.includes(input)) {
-      cards[i].style.display = "";
-    } else {
-      cards[i].style.display = "none";
-    }
-  }
+  cards.forEach(el => {
+    el.style.display = el.innerText.toLowerCase().includes(input) ? "" : "none";
+  });
 }
 </script>
 
