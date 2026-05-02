@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+
+<title>Redirecting...</title>
+
+<style>
+body{
+font-family:Arial;
+text-align:center;
+padding:30px;
+background:#111;
+color:white;
+}
+
+.box{
+max-width:400px;
+margin:auto;
+background:#1c1c1c;
+padding:20px;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 20px;
+background:#ff3d00;
+color:white;
+border-radius:20px;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>⚠️ Important Notice</h2>
+
+<p>
+You are leaving our website and going to an external site.<br><br>
+We do not control or guarantee that website.<br>
+Please proceed at your own risk.
+</p>
+
+<a id="goLink" class="btn" href="#">Continue</a>
+
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const url = params.get("url");
+
+if(url){
+  document.getElementById("goLink").href = url;
+}
+</script>
+
+</body>
+</html>
